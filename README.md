@@ -2,7 +2,7 @@
 
 **85 offline developer utilities in your browser's side panel** (Chrome, Edge, Brave, Vivaldi, Opera and other Chromium browsers). JSON, Base64, JWT, UUIDs, hashes, regex, QR codes, cron, SQL, subnets and much more, one click or one shortcut away.
 
-- **Version:** 1.5.1 · [release notes](https://github.com/DoggByte/SwiftGear/releases/tag/v1.5.1) · [CHANGELOG](CHANGELOG.md)
+- **Version:** 1.5.2 · [release notes](https://github.com/DoggByte/SwiftGear/releases/tag/v1.5.2) · [CHANGELOG](CHANGELOG.md)
 - **Author:** DoggByte · [doggbyte.com](https://doggbyte.com) · [doggbyte@bert2go.com](mailto:doggbyte@bert2go.com)
 - **Works in:** any Chromium-based browser that runs Chrome extensions (version 116 or newer). Firefox and Safari are not supported.
 - **Privacy:** no account, no server, no analytics, no access to the pages you visit. Everything you type stays in your browser.
@@ -42,8 +42,8 @@
 
 SwiftGear is installed by hand from this page. It takes about two minutes and works the same in every Chromium browser.
 
-1. **Download** [`swiftgear-v1.5.1.zip`](https://github.com/DoggByte/SwiftGear/releases/download/v1.5.1/swiftgear-v1.5.1.zip) from the [latest release](https://github.com/DoggByte/SwiftGear/releases/tag/v1.5.1).
-   *(Optional: check the download against `SHA256SUMS.txt` from the same page. On Linux or macOS run `shasum -a 256 swiftgear-v1.5.1.zip`, on Windows `certutil -hashfile swiftgear-v1.5.1.zip SHA256`. The two values must be identical.)*
+1. **Download** [`swiftgear-v1.5.2.zip`](https://github.com/DoggByte/SwiftGear/releases/download/v1.5.2/swiftgear-v1.5.2.zip) from the [latest release](https://github.com/DoggByte/SwiftGear/releases/tag/v1.5.2).
+   *(Optional: check the download against `SHA256SUMS.txt` from the same page. On Linux or macOS run `shasum -a 256 swiftgear-v1.5.2.zip`, on Windows `certutil -hashfile swiftgear-v1.5.2.zip SHA256`. The two values must be identical.)*
 2. **Unzip it into a folder that will stay where it is**, for example `Documents\SwiftGear` or `~/Apps/swiftgear`. The browser loads the extension from this folder every time it starts, so do not put it in Downloads or on the Desktop, and do not delete it afterwards. The folder must contain a file named `manifest.json` directly inside it, not inside another folder.
 3. **Open the extensions page** of your browser: type `chrome://extensions` in the address bar (`edge://extensions` in Edge, `brave://extensions` in Brave, `vivaldi://extensions` in Vivaldi, `opera://extensions` in Opera) and press Enter.
 4. **Turn on Developer mode.** The switch is at the top right (in Edge it is at the bottom left of the page).
@@ -58,6 +58,8 @@ SwiftGear is installed by hand from this page. It takes about two minutes and wo
 3. Open the extensions page and click the **reload** (circular arrow) button on SwiftGear.
 
 Your favorites and remembered settings stay. Always reuse the same folder: loading the new version from a different folder makes the browser treat it as a second, separate extension that starts empty.
+
+Installed SwiftGear from the Chrome Web Store instead? Then the browser updates it by itself and there is nothing to do.
 
 ### Removing it
 

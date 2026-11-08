@@ -4,6 +4,16 @@ What changed in **SwiftGear**, version by version, from the point of view of som
 
 ## [Unreleased]
 
+## [1.5.2] - 2026-11-08
+
+### Changed
+
+- **Ready for the Chrome Web Store.** When SwiftGear is installed from the Chrome Web Store, Settings says updates are installed automatically instead of showing the **Check for updates** button, and it never contacts GitHub. Copies installed from GitHub work as before.
+
+### Fixed
+
+- **JWT parser** values are readable in a narrow side panel, instead of breaking after every character.
+
 ## [1.5.1] - 2026-11-07
 
 ### Added
