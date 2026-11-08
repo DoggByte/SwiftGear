@@ -4,6 +4,21 @@ What changed in **SwiftGear**, version by version, from the point of view of som
 
 ## [Unreleased]
 
+## [1.6.0] - 2026-11-08
+
+### Added
+
+- **Accessibility tools**, a new category:
+  - **Contrast checker**: the contrast ratio of a text colour on a background, whether it passes the WCAG AA and AAA levels, a live preview, and the nearest colour of the same hue that passes.
+  - **Colour-blindness simulator**: see a set of colours, or an image, as people with the four main kinds of colour blindness see them, with a warning for colours that look alike.
+  - **ARIA roles reference**: every ARIA role and attribute, with what each one requires and which HTML element already has it.
+  - **HTML accessibility checker**: paste HTML to find missing alt text, unlabelled fields, empty links and buttons, skipped headings and ARIA mistakes, and to see its heading outline and landmarks.
+
+### Changed
+
+- **Text statistics** also scores how easy an English text is to read (Flesch reading ease and Flesch-Kincaid grade).
+- **Easier to use with a keyboard and a screen reader**: every page and tool now meets the WCAG 2.2 AA checks. Scrolling tables and code can be reached with the keyboard, buttons are announced by the text they show, a few colours have more contrast in light and dark mode, links in the User Guide are underlined, and the emoji picker's copy buttons are bigger.
+
 ## [1.5.2] - 2026-11-08
 
 ### Changed
