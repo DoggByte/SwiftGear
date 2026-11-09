@@ -4,16 +4,19 @@ What changed in **SwiftGear**, version by version, from the point of view of som
 
 ## [Unreleased]
 
+## [1.7.2] - 2026-11-09
+
+### Changed
+
+- **The tool categories are in alphabetical order** in the tool list and in the User Guide.
+- **A new icon** for the toolbar, the extensions page and the home screen.
+
 ## [1.7.0] - 2026-11-09
 
 ### Added
 
 - **A Settings option to show or hide favorites.** Turn off **Show favorites (the stars and the Favorites section)** to remove the stars and the Favorites list. The tools you starred are kept, and they return when you turn it on again.
 - **Every ARIA role and attribute is explained on the ARIA roles reference's help page.** Press the ? button of the tool: for each role and each `aria-*` attribute it says what it is, when to use it and how, grouped like the tool. Old ones that should no longer be used say so.
-
-### Changed
-
-- **New contact address:** hello@doggbyte.com (Settings, About).
 
 ### Fixed
 

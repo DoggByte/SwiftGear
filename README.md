@@ -2,7 +2,7 @@
 
 **89 offline developer utilities in your browser's side panel** (Chrome, Edge, Brave, Vivaldi, Opera and other Chromium browsers). JSON, Base64, JWT, UUIDs, hashes, regex, QR codes, cron, SQL, subnets and much more, one click or one shortcut away.
 
-- **Version:** 1.7.0 · [release notes](https://github.com/DoggByte/SwiftGear/releases/tag/v1.7.0) · [CHANGELOG](CHANGELOG.md)
+- **Version:** 1.7.2 · [release notes](https://github.com/DoggByte/SwiftGear/releases/tag/v1.7.2) · [CHANGELOG](CHANGELOG.md)
 - **Author:** DoggByte · [doggbyte.com](https://doggbyte.com) · [hello@doggbyte.com](mailto:hello@doggbyte.com)
 - **Works in:** any Chromium-based browser that runs Chrome extensions (version 116 or newer). Firefox and Safari are not supported.
 - **Privacy:** no account, no server, no analytics, no access to the pages you visit. Everything you type stays in your browser.
@@ -27,24 +27,24 @@
 
 ## The tools
 
-- **Crypto** (11): Token generator, Hash text, Bcrypt, UUID generator, ULID generator, Encrypt / decrypt text, BIP39 passphrase generator, HMAC generator, RSA key pair generator, Password strength analyser, PDF signature checker.
-- **Converter** (20): Date-time converter, Integer base converter, Roman numeral converter, Base64 string converter, Base64 file converter, Color converter, Case converter, Text to NATO alphabet, Text to ASCII binary, Text to Unicode, YAML to JSON converter, YAML to TOML converter, JSON to YAML converter, JSON to TOML converter, List converter, TOML to JSON converter, TOML to YAML converter, XML to JSON converter, JSON to XML converter, Markdown to HTML converter.
-- **Web** (16): URL encoder and decoder, HTML entities, URL parser, Device information, Basic auth generator, Meta tag generator, OTP code generator, MIME types, JWT parser, Keycode info, Slugify string, HTML WYSIWYG editor, User agent parser, HTTP status codes, JSON diff, Outlook SafeLink decoder.
 - **Accessibility** (4): Contrast checker, Colour-blindness simulator, ARIA roles reference, HTML accessibility checker.
-- **Images and videos** (3): QR code generator, WiFi QR code generator, SVG placeholder generator.
+- **Converter** (20): Date-time converter, Integer base converter, Roman numeral converter, Base64 string converter, Base64 file converter, Color converter, Case converter, Text to NATO alphabet, Text to ASCII binary, Text to Unicode, YAML to JSON converter, YAML to TOML converter, JSON to YAML converter, JSON to TOML converter, List converter, TOML to JSON converter, TOML to YAML converter, XML to JSON converter, JSON to XML converter, Markdown to HTML converter.
+- **Crypto** (11): Token generator, Hash text, Bcrypt, UUID generator, ULID generator, Encrypt / decrypt text, BIP39 passphrase generator, HMAC generator, RSA key pair generator, Password strength analyser, PDF signature checker.
+- **Data** (2): Phone parser and formatter, IBAN validator and parser.
 - **Development** (14): Git cheatsheet, Random port generator, Crontab generator, JSON formatter, JSON minifier, JSON to CSV, SQL prettify and format, Chmod calculator, Docker run to docker-compose converter, XML formatter, YAML prettify and validator, Email normalizer, Regex tester, Regex cheatsheet.
-- **Network** (6): IPv4 subnet calculator, IPv4 address converter, IPv4 range expander, MAC address lookup, MAC address generator, IPv6 ULA generator.
+- **Images and videos** (3): QR code generator, WiFi QR code generator, SVG placeholder generator.
 - **Math** (3): Math evaluator, ETA calculator, Percentage calculator.
 - **Measurement** (3): Chronometer, Temperature converter, Benchmark builder.
+- **Network** (6): IPv4 subnet calculator, IPv4 address converter, IPv4 range expander, MAC address lookup, MAC address generator, IPv6 ULA generator.
 - **Text** (7): Lorem ipsum generator, Text statistics, Emoji picker, String obfuscator, Text diff, Numeronym generator, ASCII art text drawer.
-- **Data** (2): Phone parser and formatter, IBAN validator and parser.
+- **Web** (16): URL encoder and decoder, HTML entities, URL parser, Device information, Basic auth generator, Meta tag generator, OTP code generator, MIME types, JWT parser, Keycode info, Slugify string, HTML WYSIWYG editor, User agent parser, HTTP status codes, JSON diff, Outlook SafeLink decoder.
 
 ## Install it
 
 SwiftGear is installed by hand from this page. It takes about two minutes and works the same in every Chromium browser.
 
-1. **Download** [`swiftgear-v1.7.0.zip`](https://github.com/DoggByte/SwiftGear/releases/download/v1.7.0/swiftgear-v1.7.0.zip) from the [latest release](https://github.com/DoggByte/SwiftGear/releases/tag/v1.7.0).
-   *(Optional: check the download against `SHA256SUMS.txt` from the same page. On Linux or macOS run `shasum -a 256 swiftgear-v1.7.0.zip`, on Windows `certutil -hashfile swiftgear-v1.7.0.zip SHA256`. The two values must be identical.)*
+1. **Download** [`swiftgear-v1.7.2.zip`](https://github.com/DoggByte/SwiftGear/releases/download/v1.7.2/swiftgear-v1.7.2.zip) from the [latest release](https://github.com/DoggByte/SwiftGear/releases/tag/v1.7.2).
+   *(Optional: check the download against `SHA256SUMS.txt` from the same page. On Linux or macOS run `shasum -a 256 swiftgear-v1.7.2.zip`, on Windows `certutil -hashfile swiftgear-v1.7.2.zip SHA256`. The two values must be identical.)*
 2. **Unzip it into a folder that will stay where it is**, for example `Documents\SwiftGear` or `~/Apps/swiftgear`. The browser loads the extension from this folder every time it starts, so do not put it in Downloads or on the Desktop, and do not delete it afterwards. The folder must contain a file named `manifest.json` directly inside it, not inside another folder.
 3. **Open the extensions page** of your browser: type `chrome://extensions` in the address bar (`edge://extensions` in Edge, `brave://extensions` in Brave, `vivaldi://extensions` in Vivaldi, `opera://extensions` in Opera) and press Enter.
 4. **Turn on Developer mode.** The switch is at the top right (in Edge it is at the bottom left of the page).
